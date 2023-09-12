@@ -9,9 +9,9 @@ class Car(object):
         self.speed = self.speed + 3
         print (self.speed)
 
-volvo = Car("Volvo", 4, "white", 60)
+volvo = Car("Volvo", 5, "white", 60)
 ferrari = Car("Ferrari", 2, "black", 100)
-ford = Car("Ford", 7, "blue", 65)
+tesla = Car("Ford", 4, "green", 90)
 
 volvo.accelerate()
 print (bmw.color)
