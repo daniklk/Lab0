@@ -20,7 +20,6 @@ public class Application {
         this.lastSnapshot = null;
         this.currentSnapshot = null;
 
-        //this.currentSnapshot = new Snapshot();
 
 
         inspectionThread.start();
@@ -36,9 +35,7 @@ public class Application {
     }
     public void processOperations(String cmd) {
         String[] cmds = cmd.split(" ");
-/*        for (int i = 0; i < cmds.length; i++) {
-            System.out.println(cmds[i]);
-        }*/
+
         switch (cmds[0]) {
             case "commit":
                 commit();
